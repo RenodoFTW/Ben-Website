@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="Home.css">
+    <script src="Home.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bean & Brew</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bean & Brew</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Coffee.html">Coffee</a></li>
+                  <li><a class="dropdown-item" href="Tea.html">Tea</a></li>
+                  <li><a class="dropdown-item" href="SoftDrink.html">Soft Drinks</a></li>
+                  <li><a class="dropdown-item" href="#">Sandwiches</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Coffee Shops</a></li>
+                  <li><a class="dropdown-item" href="#">Local Cuisine Restaurants</a></li>
+                  <li><a class="dropdown-item" href="#">Baking Lessons</a></li>
+                  <li><a class="dropdown-item" href="#">Bakery Takeaways</a></li>
+                </ul>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="accordion" id="accordionExample" style="margin-top:50px ;">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Our Mission
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              When we were founded in 1981, we started with the aim of creating a local community around a single location. Now in 2022, Bean & Brew aim to provide our customers and community with fresh and fairtrade goods such as coffee or lunch sandwiches. We strive to create new experiences and educate our customers on our specialties like baking. Our biggest mission is extending our influence by making our services convinient to access and fresh with new trends.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Our History
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Founded in 1981 by coffee enthusiast Oscar Thomas, Bean & Brew served the local community within Harrogate being one of the first establishments to sell fairtrade coffee to its customers. Over the years, we have continued to grow branching out to nearby cities such as Leeds. As a result, we also expanded our services branching out to baking classes, small cuisine restaurants and our prestigious bakery takeaway.
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <h1 class="text-center" style="margin-top:50px;">Key Figures</h1>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top:50px ;">
+        <div class="col">
+          <div class="card">
+            <img src="Founder.jpg" class="card-img-top" alt="..." style="height: 400px;">
+            <div class="card-body">
+              <h5 class="card-title">Oscar Thomas</h5>
+              <p class="card-text" style="width: 400px;">Founder</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="CEO.jpg" class="card-img-top" alt="..." style="height: 400px;">
+            <div class="card-body">
+              <h5 class="card-title">Benjamin Cooper</h5>
+              <p class="card-text">CEO</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="Baker.jpg" class="card-img-top" alt="..." style="height: 400px;">
+            <div class="card-body">
+              <h5 class="card-title">Tony Addams</h5>
+              <p class="card-text">Professional Baker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
