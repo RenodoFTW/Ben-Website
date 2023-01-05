@@ -1,0 +1,13 @@
+.cardimg
+{
+    height:50vh;
+}
+.card
+{
+    width:70vh;
+}
+.col
+{
+    display: flex;
+    justify-content: space-evenly;
+}

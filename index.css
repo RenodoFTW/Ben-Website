@@ -1,5 +1,22 @@
-.coverimg
-{
-    width:100%;
-    height:10%;
+.coverimg {
+    width: 100%;
+    height: auto;
+}
+
+
+.cardimg {
+    height: 50vh;
+}
+
+.coverbox {
+    position: relative;
+    text-align: center;
+}
+
+.covertext {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
