@@ -1,3 +1,8 @@
+body
+{
+    background-color: rgb(7, 14, 75);
+}
+
 .coverimg {
     width: 100%;
     height: auto;
@@ -21,12 +26,17 @@
     color: white;
 }
 
-.homebutton
+.navbutton
 {
     color: white;
 }
 
-.homebutton:hover
+.navbutton:hover
 {
-    color:grey
+    color:rgb(106, 128, 172);
+}
+
+.navbutton:focus
+{
+    color:rgb(106, 128, 172);
 }

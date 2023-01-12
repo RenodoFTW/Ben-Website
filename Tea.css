@@ -1,3 +1,7 @@
+body
+{
+    background-color: rgb(7, 14, 75);
+}
 .cardimg
 {
     height:50vh;
@@ -10,4 +14,18 @@
 {
     display: flex;
     justify-content: space-evenly;
+}
+.navbutton
+{
+    color: white;
+}
+
+.navbutton:hover
+{
+    color:rgb(106, 128, 172);
+}
+
+.navbutton:focus
+{
+    color:rgb(106, 128, 172);
 }

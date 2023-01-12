@@ -1,3 +1,7 @@
+body
+{
+    background-color: rgb(7, 14, 75);
+}
 .card
 {
     width: 65vh;
@@ -10,4 +14,19 @@
 {
     display: flex;
     justify-content: space-evenly;
+}
+
+.navbutton
+{
+    color: white;
+}
+
+.navbutton:hover
+{
+    color:rgb(106, 128, 172);
+}
+
+.navbutton:focus
+{
+    color:rgb(106, 128, 172);
 }
