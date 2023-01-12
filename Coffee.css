@@ -11,3 +11,6 @@
     display: flex;
     justify-content: space-evenly;
 }
+.active a{
+    background-color: white !important;
+}
