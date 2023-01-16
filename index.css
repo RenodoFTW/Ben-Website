@@ -29,6 +29,7 @@ body
 .navbutton
 {
     color: white;
+    font-size: large;
 }
 
 .navbutton:hover
@@ -39,4 +40,9 @@ body
 .navbutton:focus
 {
     color:rgb(106, 128, 172);
+}
+
+.logoimg
+{
+    height: 7rem;
 }
