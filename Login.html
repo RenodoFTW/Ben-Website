@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bean & Brew</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a href="index.html"><img src="./Home/Bean_Brew_Logo.png" class="logoimg" href="/index.html"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-muted"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item disabled">
+                        <a class="nav-link navbutton" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbutton" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbutton" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Coffee.html">Coffee</a></li>
+                            <li><a class="dropdown-item" href="Tea.html">Tea</a></li>
+                            <li><a class="dropdown-item" href="SoftDrink.html">Soft Drinks</a></li>
+                            <li><a class="dropdown-item" href="#">Sandwiches</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbutton" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Coffee Shops</a></li>
+                            <li><a class="dropdown-item" href="#">Local Cuisine Restaurants</a></li>
+                            <li><a class="dropdown-item" href="#">Baking Lessons</a></li>
+                            <li><a class="dropdown-item" href="#">Bakery Takeaways</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav mb-lg-0">
+                    <li class="nav-item loginbtn">
+                        <a class="nav-link loginbtn" aria-current="page" href="Login.html">Login</a>
+                    </li>
+                    <li class="nav-item regbtn">
+                        <a class="nav-link regbtn" aria-current="page">Register</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="loginform d-flex flex-column align-items-center">
+        <h1>Welcome To Bean & Brew!</h1>
+        <h6>If You Already Have An Account,</h6> 
+        <h6>Please Login Below.</h6>
+        <div class="loginform mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="loginform mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+            <input class="form-control" id="exampleFormControlTextarea1"></input>
+        </div>
+
+        <h6>If You Do Not Have An Account,</h6>
+        <h6>Register For One By Pressing The Button Below!</h6>
+
+        <button class="regbtn_press" aria-current="page">Register</>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

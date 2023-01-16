@@ -3,9 +3,15 @@ body
     background-color: rgb(7, 14, 75);
 }
 
-.coverimg {
+.navbar
+{
     width: 100%;
+}
+
+.coverimg {
+    width: 65%;
     height: auto;
+    border-radius: 5px;
 }
 
 
@@ -45,4 +51,36 @@ body
 .logoimg
 {
     height: 7rem;
+}
+
+.loginbtn
+{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.loginbtn:hover
+{
+    background-color: rgb(106, 128, 172);
+    color: white;
+}
+
+.regbtn
+{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.regbtn:hover
+{
+    background-color: rgb(106, 128, 172);
+    color: white; 
 }

@@ -13,12 +13,12 @@
 
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-dark text-light" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light" data-bs-theme="dark">
     <div class="container-fluid">
-      <img src="./Home/Bean_Brew_Logo.png" class="logoimg">
+      <a href="index.html"><img src="./Home/Bean_Brew_Logo.png" class="logoimg" href="/index.html"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon text-muted"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -52,8 +52,18 @@
               <li><a class="dropdown-item" href="#">Bakery Takeaways</a></li>
             </ul>
           </li>
-
         </ul>
+
+        <ul class="navbar-nav mb-lg-0">
+          <li class="nav-item loginbtn">
+            <a class="nav-link loginbtn" aria-current="page" href="Login.html">Login</a>
+          </li>
+          <li class="nav-item regbtn">
+            <a class="nav-link regbtn" aria-current="page">Register</a>
+          </li>
+        </ul>
+
+        
       </div>
     </div>
   </nav>
