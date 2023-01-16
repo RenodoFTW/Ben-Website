@@ -1,6 +1,8 @@
 body
 {
-    background-color: rgb(7, 14, 75);
+    background-image: url('./Login/Coffee_bean.jpg');
+    background-size: cover;
+    filter:;
 }
 
 .navbar
@@ -82,7 +84,7 @@ body
     font-size: large;
     width: 5rem;
     text-align: center;
-    height: 2rem;
+    height: 3rem;
     border-color: red;
     margin-top: 20px;
 }
@@ -92,4 +94,14 @@ body
     background-color: rgb(106, 128, 172);
     color: white; 
     border-color: rgb(106, 128, 172);
+}
+
+.title
+{
+    margin-top: 50px;
+}
+
+.label
+{
+    margin-top: 50px;
 }
