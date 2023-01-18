@@ -1,17 +1,16 @@
-body
-{
-    background-color: rgb(7, 14, 75);
+body {
+    background-color: rgb(66, 122, 99)
 }
 
-.navbar
-{
+.navbar {
     width: 100%;
 }
 
 .coverimg {
     width: 65%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 50px;
+    box-shadow: 0 25px 40px rgb(13, 24, 19);
 }
 
 
@@ -32,29 +31,24 @@ body
     color: white;
 }
 
-.navbutton
-{
+.navbutton {
     color: white;
     font-size: large;
 }
 
-.navbutton:hover
-{
-    color:rgb(106, 128, 172);
+.navbutton:hover {
+    color: rgb(106, 128, 172);
 }
 
-.navbutton:focus
-{
-    color:rgb(106, 128, 172);
+.navbutton:focus {
+    color: rgb(106, 128, 172);
 }
 
-.logoimg
-{
+.logoimg {
     height: 7rem;
 }
 
-.loginbtn
-{
+.loginbtn {
     background-color: green;
     border-radius: 5px;
     color: white;
@@ -63,14 +57,12 @@ body
     padding-right: 15px;
 }
 
-.loginbtn:hover
-{
+.loginbtn:hover {
     background-color: rgb(106, 128, 172);
     color: white;
 }
 
-.regbtn
-{
+.regbtn {
     background-color: red;
     border-radius: 5px;
     color: white;
@@ -79,8 +71,9 @@ body
     margin-right: 10px;
 }
 
-.regbtn:hover
-{
+.regbtn:hover {
     background-color: rgb(106, 128, 172);
-    color: white; 
+    color: white;
 }
+
+
