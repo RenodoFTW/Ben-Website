@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(66, 122, 99)
+    background-color: rgb(155, 155, 155)
 }
 
 .navbar {
@@ -15,7 +15,7 @@ body {
 
 
 .cardimg {
-    height: 50vh;
+    height:30vh;
 }
 
 .coverbox {
@@ -25,10 +25,14 @@ body {
 
 .covertext {
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: xx-large;
+    background-color: rgba(126, 125, 125, 0.397);
+    border-radius: 10px;
+    
 }
 
 .navbutton {
@@ -76,4 +80,44 @@ body {
     color: white;
 }
 
+.rectextbox
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: white;
+    margin-bottom: 2%;
+}
 
+.rectext
+{
+    background-color: rgb(100, 100, 100);
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(13, 24, 19);
+}
+
+.cardbox
+{
+    height: auto;
+    width: 35vh;
+    border-color: rgb(99, 99, 99);
+    border: 5px;
+    box-shadow: 0 10px 15px rgb(13, 24, 19);
+}
+
+.cardbod
+{
+    background-color: rgb(99, 99, 99);
+    color: white;
+    border-color: rgb(99, 99, 99);
+    border: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.reccofbox
+{
+    margin-bottom: 10%;
+}
