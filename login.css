@@ -1,7 +1,13 @@
 body
 {
-    background-image: url('./Login/Coffee_bean2.png');
-    background-size: cover;
+    background-image: url('./Login/Background_Image1.JPG');
+    background-size:auto;
+    background-color: #202124;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #171717;
 }
 
 .navbar
@@ -89,6 +95,26 @@ body
 }
 
 .regbtn_press:hover
+{
+    background-color: rgb(106, 128, 172);
+    color: white; 
+    border-color: rgb(106, 128, 172);
+}
+
+.loginbtn_press
+{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    width: 5rem;
+    text-align: center;
+    height: 3rem;
+    border-color: green;
+    margin-top: 20px; 
+}
+
+.loginbtn_press:hover
 {
     background-color: rgb(106, 128, 172);
     color: white; 

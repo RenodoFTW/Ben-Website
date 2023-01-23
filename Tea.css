@@ -1,6 +1,10 @@
-body
-{
-    background-color: rgb(7, 14, 75);
+body {
+    background-color: #202124;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #171717;
 }
 .cardimg
 {
@@ -38,32 +42,54 @@ body
 
 .loginbtn
 {
-    background-color: green;
-    border-radius: 5px;
     color: white;
+}
+
+.loginbtnitem:hover
+{
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
+.loginbtn:hover
+{
+    color: white;
+}
+
+.loginbtnitem
+{
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
     font-size: large;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.loginbtn:hover
-{
-    background-color: rgb(106, 128, 172);
-    color: white;
-}
-
 .regbtn
 {
-    background-color: red;
-    border-radius: 5px;
+    
     color: white;
+    
+}
+
+
+.regbtnitem
+{
     font-size: large;
     margin-left: 10px;
     margin-right: 10px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .regbtn:hover
 {
-    background-color: rgb(106, 128, 172);
+    color: white; 
+}
+
+.regbtnitem:hover
+{
+    background-color: rgb(136, 136, 136);
     color: white; 
 }
