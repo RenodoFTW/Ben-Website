@@ -18,7 +18,7 @@ body {
 
 
 .cardimg {
-    height:30vh;
+    height: 100%;
 }
 
 .coverbox {
@@ -135,8 +135,8 @@ body {
 
 .cardbox
 {
-    height: auto;
-    width: 35vh;
+    height: 100%;
+    width: 85%;
     border-color: rgb(99, 99, 99);
     border: 5px;
     box-shadow: 0 10px 15px rgb(13, 24, 19);

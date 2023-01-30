@@ -8,58 +8,50 @@ body {
 }
 
 
-.card
-{
+.card {
     width: 65vh;
 }
-.cardimg
-{
+
+.cardimg {
     height: 50vh;
 }
-.cardcol
-{
+
+.cardcol {
     display: flex;
     justify-content: space-evenly;
 }
 
-.navbutton
-{
+.navbutton {
     color: white;
     font-size: large;
 }
 
-.navbutton:hover
-{
-    color:rgb(106, 128, 172);
+.navbutton:hover {
+    color: rgb(106, 128, 172);
 }
 
-.navbutton:focus
-{
-    color:rgb(106, 128, 172);
+.navbutton:focus {
+    color: rgb(106, 128, 172);
 }
 
-.logoimg
-{
+.logoimg {
     height: 7rem;
 }
 
-.loginbtn
-{
+.loginbtn {
     color: white;
 }
 
-.loginbtnitem:hover
-{
+.loginbtnitem:hover {
     background-color: rgb(136, 136, 136);
     color: white;
 }
-.loginbtn:hover
-{
+
+.loginbtn:hover {
     color: white;
 }
 
-.loginbtnitem
-{
+.loginbtnitem {
     background-color: rgb(61, 61, 61);
     border-radius: 5px;
     font-size: large;
@@ -67,16 +59,14 @@ body {
     padding-right: 15px;
 }
 
-.regbtn
-{
-    
+.regbtn {
+
     color: white;
-    
+
 }
 
 
-.regbtnitem
-{
+.regbtnitem {
     font-size: large;
     margin-left: 10px;
     margin-right: 10px;
@@ -86,19 +76,16 @@ body {
     padding-right: 5px;
 }
 
-.regbtn:hover
-{
-    color: white; 
+.regbtn:hover {
+    color: white;
 }
 
-.regbtnitem:hover
-{
+.regbtnitem:hover {
     background-color: rgb(136, 136, 136);
-    color: white; 
+    color: white;
 }
 
-.accordbox
-{
+.accordbox {
     width: 50%;
     text-align: center;
     display: flex;
@@ -106,19 +93,82 @@ body {
     border-color: grey;
 }
 
-.accordinner
-{
-    background-color: grey;
-}
-
-.accordhead
-{
-    background-color: black;
-}
-
-.accordhead
-{
-    background-color: grey;
-    color: white;
+.accordinner {
+    background-color: rgb(43, 43, 43);
     border-color: grey;
+}
+
+.accordhead {
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: rgb(48, 46, 46);
+}
+
+.accordion-body {
+    color: white;
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-button{
+    border-color: grey;
+}
+
+.figuretitle{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.figcard
+{
+    height: 100%;
+    width: 85%;
+}
+
+.figtextbox
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+    background-color: rgb(100, 100, 100);
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(13, 24, 19);
+}
+
+.figimg
+{
+    height: 100%;
+}
+
+.card
+{
+    background-color: rgb(29, 28, 28);
+    color: white;
+    background: linear-gradient(rgb(29, 28, 28), rgb(29, 28, 28)) padding-box,
+              linear-gradient(to right, rgb(116, 116, 116), rgb(63, 63, 63)) border-box;
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+
+.cardsection
+{
+    margin-bottom: 50px;
+}
+
+.spacer
+{
+    margin-top: 10px;
 }
